@@ -1,0 +1,8 @@
+import streamlit as st
+st.title("hello chai app")
+st.subheader("brewed with streamlit")
+st.text("welcome to your first interactive app")
+st.write("chosse your fav.variety of chai")
+chai= st.selectbox("your fav. chai :",["masala chai","lemon tea","adrak chai","kesar chai"])
+st.write(f"You chose {chai}.Excellent choice")
+st.success("your chai has been brewed")
